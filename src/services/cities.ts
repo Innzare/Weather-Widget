@@ -7,7 +7,7 @@ export function getCities(city: string) {
 };
 
 export function getCitiesByCoords(lon: number, lat: number) {
-  return axios.get(`${CITIES_API}${lon},${lat}.json?types=place&language=en`)
+  return axios.get(`${CITIES_API}?${lon},${lat}.json&types=place&language=en`)
     .then(response => response.data);
 };
 
