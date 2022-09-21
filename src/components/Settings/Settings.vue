@@ -46,7 +46,7 @@ import { defineComponent } from 'vue';
 import draggable from 'vuedraggable';
 import { getCities } from '@/services/cities';
 import CrossIcon from '@/components/SvgIcons/CrossIcon.vue';
-import EnterIcon from '@//components/SvgIcons/EnterIcon.vue';
+import EnterIcon from '@/components/SvgIcons/EnterIcon.vue';
 import Autocomplete from '@/components/Autocomplete';
 import City from '@/components/City';
 
